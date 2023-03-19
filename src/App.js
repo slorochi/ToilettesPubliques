@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+// Importation des modules
+import React, { useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
 
+
+// Importation des pages
+import Home from "./pages/home/home.jsx";
+import Navbar from './components/NavBar/NavBar.jsx';
+import Recherche from './pages/Recherche/recherche.jsx'
+import Footer from './components/Footer/Footer.jsx'
+// App
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/recherche' element={<div><Recherche /></div>} />
+        
+          <Route path="*" element={<h1> error 404</h1>} />
+        </Routes>
+        <Footer/> 
+    </>
   );
 }
 

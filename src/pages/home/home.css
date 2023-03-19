@@ -1,0 +1,18 @@
+
+* {
+    --color-main: white;
+    --color-primary: #1789fc;
+    --color-secondary: #296eb4;
+    --color-contrast: #fdb833;
+  }
+
+  /* Responsive */
+  @media screen and (max-width: 800px) {
+   
+  }
+
+  body {
+    background-color: #515151 !important;
+  }
+
+ 

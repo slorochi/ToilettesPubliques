@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #4a4a4a;
+}
+
+.navbarcontaine {
+    width: 100%;
+    margin: 0 !important;
+}
+
+.navbar-link {
+    color: #000000;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.no-decoration a {
+    text-decoration: none;
+}
+
+
+#navbarScrollingDropdown {
+    color: #000000;
+}
+
+.navbar-collapse {
+    justify-content: center !important;
+}
+
+.logoimg {
+    height: 60px;
+}
+
+.burgermenu {
+    background-color: #ffcd38;
+    width: 60px;
+    height: 60px;
+}
+
+.iconConnexion {
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+}
+
+.iconProfile {
+    font-size: 35px;
+}
+
+.loginIcon {
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-toggler-icon .close {
+    background-image: url("https://cdn.icon-icons.com/icons2/1674/PNG/512/close_111152.png");
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("https://static.thenounproject.com/png/3187934-200.png");
+}
+
+.profileicon {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.profileicon .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    right: 0;
+    left: auto;
+}
+
+.dividerDrodDown {
+    border-bottom: #000000 1px solid;
+    border-image: linear-gradient(to right, white, white, black, white, white) 1;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.active {
+    font-weight: 700;
+    color: #ffcd38 !important;
+    border-bottom: 2px solid #ffcd38;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
