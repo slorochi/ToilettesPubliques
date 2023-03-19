@@ -2,10 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project was made during a hackaton.
+
 ## Available Scripts
 
 First, run the following command in "my-project" directory to install packages needed:
-'npm i'
+
+### `npm i`
 
 In the project directory, you can run:
 
