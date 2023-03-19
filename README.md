@@ -6,7 +6,7 @@ This project was made during a hackaton.
 
 ## Available Scripts
 
-First, run the following command in In the project directory to install the needed packages:
+First, run the following command in the project directory to install the needed packages:
 
 ### `npm i`
 
